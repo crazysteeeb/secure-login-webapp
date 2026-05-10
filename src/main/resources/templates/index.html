@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layout :: layout(pageTitle='Home Page', content=~{::content})}">
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+<div class="content-container" th:fragment="content">
+    <div class="row">
+        <div class="col-12">
+            <h1>Welcome to the Home Page</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>
