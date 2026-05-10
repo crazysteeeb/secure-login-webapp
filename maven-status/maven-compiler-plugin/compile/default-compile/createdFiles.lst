@@ -1,0 +1,8 @@
+edu\missouristate\LogindemoApplication.class
+edu\missouristate\domain\Role.class
+edu\missouristate\config\SecurityConfig.class
+edu\missouristate\domain\User.class
+edu\missouristate\service\CustomUserDetailsService.class
+edu\missouristate\repository\UserRepository.class
+edu\missouristate\ServletInitializer.class
+edu\missouristate\controller\IndexController.class
